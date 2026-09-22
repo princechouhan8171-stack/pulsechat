@@ -1,0 +1,1 @@
+import React from'react';export default function Toast({message}){return message?<div className="fixed top-4 right-4 bg-gray-900 text-white px-4 py-3 rounded-xl">{message}</div>:null}
