@@ -1,0 +1,1 @@
+const jwt=require('jsonwebtoken');const generateToken=userId=>jwt.sign({id:userId},process.env.JWT_SECRET||'fallback_jwt_secret',{expiresIn:'30d'});module.exports=generateToken;
