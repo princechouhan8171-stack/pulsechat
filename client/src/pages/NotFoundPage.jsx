@@ -1,0 +1,1 @@
+import React from'react';import{Link}from'react-router-dom';export default()=> <div className="p-20 text-center"><h1 className="text-5xl">404</h1><Link to="/">Home</Link></div>
