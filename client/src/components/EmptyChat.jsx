@@ -1,0 +1,1 @@
+import React from'react';export default function EmptyChat(){return <div className="flex-1 grid place-items-center text-center p-8"><div><h2 className="text-2xl font-bold dark:text-white">No conversation selected</h2><p className="text-gray-500 mt-2">Select a conversation to start chatting.</p></div></div>}
